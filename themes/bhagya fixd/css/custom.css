@@ -1,0 +1,23 @@
+.views-view-grid .views-row {
+	padding-left: 70px;
+	color:tomato ;
+}
+.nav > li {
+	float: left;
+	font-size: 20px;
+}
+.navbar-header {
+    padding-left: 25px;
+}
+.nav > li > a {
+	padding-right: 10px;
+}
+/*.nav {
+	margin-left: 10px;
+	
+}*/	
+
+.copywrite {
+	padding-bottom: 20px;
+}
+

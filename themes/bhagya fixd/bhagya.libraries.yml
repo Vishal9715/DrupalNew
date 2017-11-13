@@ -1,0 +1,31 @@
+global-styling:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/font-awesome.min.css: {}
+      # css/fleslider.css: {}
+      css/form.css: {}
+      # css/jquery-ui.css: {}
+      # css/memenu.css: {}
+      css/style.css: {}
+      css/custom.css: {}
+  js:
+    js/bootstrap.min.js: {}
+    # js/jquery.min.js: {}
+    # js/jquery-ui.min.js: {}
+    js/jquery.flexisel.js: {}
+    # js/jquery.flexslider.js: {}
+    
+    # js/memenu.js: {}
+    # js/simpleCart.min.js: {}
+
+  dependencies:
+    - core/jquery
+      
+base:
+  css:
+    theme:
+      css/style.css: {}
+
+  
+              

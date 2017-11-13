@@ -1,0 +1,29 @@
+name: bhagya
+description: this is the bootstrap theme
+core: 8.x
+type: theme
+base theme: false
+
+regions:
+  new_arrivals: 'New arrivals' 
+  main_navigation: 'Main Navigation'
+  user_login: 'User Login'
+  sidebar: 'Sidebar'
+  sidebar2: 'Sidebar2'
+  footer_bottom: 'Footer Bottom'
+  content: 'Main Content'
+  arrivals: 'Arrivals'
+  solr_search: 'Solr Search'
+  classification: 'Classification'
+  classification_heading: 'Classification Heading'
+  arrival_heading: 'Arrival Heading'
+  images: 'Images'
+  main_region: 'Main region'
+  contact_us: 'Contact us'
+  important_links: 'Important Links'
+  more_information: 'More Information'
+  advertisements: 'Advertisements'
+
+libraries:
+  - bhagya/global-styling
+  - bhagya/base
