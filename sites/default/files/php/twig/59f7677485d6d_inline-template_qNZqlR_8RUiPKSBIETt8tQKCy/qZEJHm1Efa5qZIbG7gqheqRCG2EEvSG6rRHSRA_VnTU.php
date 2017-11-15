@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/navigation/menu-local-action.html.twig */
-class __TwigTemplate_549f8cba6a6adc3186a4845e8a9ff55802f3a985bb9051aa80f360fd7db0603b extends Twig_Template
+/* {# inline_template_start #}<div class="block-region demo-block">{{ region_name }}</div> */
+class __TwigTemplate_56a273fb4251ac15dc923eb3ed56b86723c65a5f0bddf7fff732cde8f81d6fea extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -39,18 +39,15 @@ class __TwigTemplate_549f8cba6a6adc3186a4845e8a9ff55802f3a985bb9051aa80f360fd7db
             throw $e;
         }
 
-        // line 13
-        echo "<li";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : null), "html", null, true));
-        echo ">";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["link"]) ? $context["link"] : null), "html", null, true));
-        echo "</li>
-";
+        // line 1
+        echo "<div class=\"block-region demo-block\">";
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["region_name"]) ? $context["region_name"] : null), "html", null, true));
+        echo "</div>";
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/navigation/menu-local-action.html.twig";
+        return "{# inline_template_start #}<div class=\"block-region demo-block\">{{ region_name }}</div>";
     }
 
     public function isTraitable()
@@ -60,24 +57,11 @@ class __TwigTemplate_549f8cba6a6adc3186a4845e8a9ff55802f3a985bb9051aa80f360fd7db
 
     public function getDebugInfo()
     {
-        return array (  43 => 13,);
+        return array (  43 => 1,);
     }
 
     public function getSource()
     {
-        return "{#
-/**
- * @file
- * Theme override for a single local action link.
- *
- * Available variables:
- * - attributes: HTML attributes for the wrapper element.
- * - link: A rendered link element.
- *
- * @see template_preprocess_menu_local_action()
- */
-#}
-<li{{ attributes }}>{{ link }}</li>
-";
+        return "{# inline_template_start #}<div class=\"block-region demo-block\">{{ region_name }}</div>";
     }
 }

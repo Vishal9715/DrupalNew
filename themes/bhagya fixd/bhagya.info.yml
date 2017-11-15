@@ -23,6 +23,7 @@ regions:
   important_links: 'Important Links'
   more_information: 'More Information'
   advertisements: 'Advertisements'
+  frontimage: 'FrontImage'
 
 libraries:
   - bhagya/global-styling

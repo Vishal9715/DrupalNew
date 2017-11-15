@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/field/image.html.twig */
-class __TwigTemplate_da03adcce1e5d381651498749c40e51e4cd18f0508220b30ed7e7e65c392681b extends Twig_Template
+/* core/themes/classy/templates/content-edit/file-managed-file.html.twig */
+class __TwigTemplate_2428f754a8688bcf7739b97b16efed7619f53e7f612cb4e2bd9d06f826e9c4d0 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -15,15 +15,15 @@ class __TwigTemplate_da03adcce1e5d381651498749c40e51e4cd18f0508220b30ed7e7e65c39
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("set" => 14);
-        $filters = array("clean_class" => 15);
-        $functions = array();
+        $tags = array("set" => 15);
+        $filters = array();
+        $functions = array("attach_library" => 13);
 
         try {
             $this->env->getExtension('sandbox')->checkSecurity(
                 array('set'),
-                array('clean_class'),
-                array()
+                array(),
+                array('attach_library')
             );
         } catch (Twig_Sandbox_SecurityError $e) {
             $e->setTemplateFile($this->getTemplateName());
@@ -39,19 +39,27 @@ class __TwigTemplate_da03adcce1e5d381651498749c40e51e4cd18f0508220b30ed7e7e65c39
             throw $e;
         }
 
-        // line 14
-        $context["classes"] = array(0 => ((        // line 15
-(isset($context["style_name"]) ? $context["style_name"] : null)) ? (("image-style-" . \Drupal\Component\Utility\Html::getClass((isset($context["style_name"]) ? $context["style_name"] : null)))) : ("")));
-        // line 18
-        echo "<img";
+        // line 13
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->env->getExtension('drupal_core')->attachLibrary("classy/file"), "html", null, true));
+        echo "
+";
+        // line 15
+        $context["classes"] = array(0 => "js-form-managed-file", 1 => "form-managed-file");
+        // line 20
+        echo "<div";
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["attributes"]) ? $context["attributes"] : null), "addClass", array(0 => (isset($context["classes"]) ? $context["classes"] : null)), "method"), "html", null, true));
-        echo " />
+        echo ">
+  ";
+        // line 21
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["element"]) ? $context["element"] : null), "html", null, true));
+        echo "
+</div>
 ";
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/field/image.html.twig";
+        return "core/themes/classy/templates/content-edit/file-managed-file.html.twig";
     }
 
     public function isTraitable()
@@ -61,7 +69,7 @@ class __TwigTemplate_da03adcce1e5d381651498749c40e51e4cd18f0508220b30ed7e7e65c39
 
     public function getDebugInfo()
     {
-        return array (  46 => 18,  44 => 15,  43 => 14,);
+        return array (  54 => 21,  49 => 20,  47 => 15,  43 => 13,);
     }
 
     public function getSource()
@@ -69,21 +77,25 @@ class __TwigTemplate_da03adcce1e5d381651498749c40e51e4cd18f0508220b30ed7e7e65c39
         return "{#
 /**
  * @file
- * Theme override of an image.
+ * Theme override to display a file form widget.
  *
  * Available variables:
- * - attributes: HTML attributes for the img tag.
- * - style_name: (optional) The name of the image style applied.
+ * - element: Form element for the file upload.
+ * - attributes: HTML attributes for the containing element.
  *
- * @see template_preprocess_image()
+ * @see template_preprocess_file_managed_file()
  */
 #}
+{{ attach_library('classy/file') }}
 {%
-set classes = [
-  style_name ? 'image-style-' ~ style_name|clean_class,
-]
+  set classes = [
+    'js-form-managed-file',
+    'form-managed-file',
+  ]
 %}
-<img{{ attributes.addClass(classes) }} />
+<div{{ attributes.addClass(classes) }}>
+  {{ element }}
+</div>
 ";
     }
 }
