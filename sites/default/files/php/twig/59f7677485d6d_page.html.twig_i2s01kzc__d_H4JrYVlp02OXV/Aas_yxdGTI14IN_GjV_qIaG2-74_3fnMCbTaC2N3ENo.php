@@ -136,11 +136,43 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
 </div>
 <!---->
 
+<div class=\"row\">
+  <div class=\"col-md-3\">
+    ";
+        // line 81
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "facet1", array()), "html", null, true));
+        echo "
+  </div>
+  
+  <div class=\"col-md-3\">
+    ";
+        // line 85
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "facet2", array()), "html", null, true));
+        echo "
+  </div>
+
+  <div class=\"col-md-3\">
+    ";
+        // line 89
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "facet3", array()), "html", null, true));
+        echo "
+  </div>
+
+  <div class=\"col-md-3\">
+    ";
+        // line 93
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "facet4", array()), "html", null, true));
+        echo "
+  </div>
+
+</div>
+
+<!--->
 <div class=\"bride-grids\">
    <div class=\"container\">
   
      ";
-        // line 82
+        // line 102
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "images", array()), "html", null, true));
         echo "
    </div>
@@ -149,29 +181,29 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
 <div class=\"featured\">
   
       ";
-        // line 88
+        // line 108
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "arrival_heading", array()), "html", null, true));
         echo "
    
    
       ";
-        // line 91
+        // line 111
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "new_arrivals", array()), "html", null, true));
         echo "
    
    
       ";
-        // line 94
+        // line 114
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "classification_heading", array()), "html", null, true));
         echo "
    
    
      ";
-        // line 97
+        // line 117
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "classification", array()), "html", null, true));
         echo "  
 
-
+ 
    
    </div>
 </div>
@@ -179,7 +211,7 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
 <div class=\"container\" >
      <div class=\"col-md-12\">
        ";
-        // line 106
+        // line 126
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "main_region", array()), "html", null, true));
         echo "
      </div>
@@ -193,25 +225,25 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
      <div class=\"ftr-grids\">
        <div class=\"col-md-3 ftr-grid\">
          ";
-        // line 117
+        // line 137
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "contact_us", array()), "html", null, true));
         echo "
        </div>
        <div class=\"col-md-3 ftr-grid\">
          ";
-        // line 120
+        // line 140
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "important_links", array()), "html", null, true));
         echo "
        </div>
        <div class=\"col-md-3 ftr-grid\">
          ";
-        // line 123
+        // line 143
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "more_information", array()), "html", null, true));
         echo "
        </div>
        <div class=\"col-md-3 ftr-grid\">
          ";
-        // line 126
+        // line 146
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "advertisements", array()), "html", null, true));
         echo "
        </div>
@@ -224,7 +256,7 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
  <div class=\"copywrite\">
    <div class=\"container\">
        ";
-        // line 136
+        // line 156
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "footer_bottom", array()), "html", null, true));
         echo "
      </div>
@@ -244,7 +276,7 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
 
     public function getDebugInfo()
     {
-        return array (  228 => 136,  215 => 126,  209 => 123,  203 => 120,  197 => 117,  183 => 106,  171 => 97,  165 => 94,  159 => 91,  153 => 88,  144 => 82,  132 => 73,  124 => 68,  118 => 65,  105 => 55,  86 => 39,  76 => 32,  43 => 1,);
+        return array (  260 => 156,  247 => 146,  241 => 143,  235 => 140,  229 => 137,  215 => 126,  203 => 117,  197 => 114,  191 => 111,  185 => 108,  176 => 102,  164 => 93,  157 => 89,  150 => 85,  143 => 81,  132 => 73,  124 => 68,  118 => 65,  105 => 55,  86 => 39,  76 => 32,  43 => 1,);
     }
 
     public function getSource()
@@ -327,6 +359,26 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
 </div>
 <!---->
 
+<div class=\"row\">
+  <div class=\"col-md-3\">
+    {{ page.facet1 }}
+  </div>
+  
+  <div class=\"col-md-3\">
+    {{ page.facet2 }}
+  </div>
+
+  <div class=\"col-md-3\">
+    {{ page.facet3 }}
+  </div>
+
+  <div class=\"col-md-3\">
+    {{ page.facet4 }}
+  </div>
+
+</div>
+
+<!--->
 <div class=\"bride-grids\">
    <div class=\"container\">
   
@@ -347,7 +399,7 @@ class __TwigTemplate_fecbc8f9aab3ce2111f3c942a2d86a2fec76b16e5cc942c51353619478b
    
      {{ page.classification}}  
 
-
+ 
    
    </div>
 </div>

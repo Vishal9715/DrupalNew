@@ -24,6 +24,10 @@ regions:
   more_information: 'More Information'
   advertisements: 'Advertisements'
   frontimage: 'FrontImage'
+  facet1: 'Facet1'
+  facet2: 'Facet2'
+  facet3: 'Facet3'
+  facet4: 'Facet4'
 
 libraries:
   - bhagya/global-styling
