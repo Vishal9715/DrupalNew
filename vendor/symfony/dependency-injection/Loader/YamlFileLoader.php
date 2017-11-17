@@ -203,7 +203,7 @@ class YamlFileLoader extends FileLoader
 
         if (isset($service['factory'])) {
             if (is_string($service['factory'])) {
-                if (strpos($service['factory'], ':') !== false && strpos($service['factory'], '::') === false) {
+                if (false !== strpos($service['factory'], ':') && false === strpos($service['factory'], '::')) {
                     $parts = explode(':', $service['factory']);
                     $definition->setFactory(array($this->resolveServices('@'.$parts[0]), $parts[1]));
                 } else {
@@ -353,7 +353,7 @@ class YamlFileLoader extends FileLoader
         }
 
         if (!file_exists($file)) {
-            throw new InvalidArgumentException(sprintf('The service file "%s" is not valid.', $file));
+            throw new InvalidArgumentException(sprintf('The file "%s" does not exist.', $file));
         }
 
         if (null === $this->yamlParser) {
@@ -451,8 +451,6 @@ class YamlFileLoader extends FileLoader
 
     /**
      * Loads from Extensions.
-     *
-     * @param array $content
      */
     private function loadFromExtensions(array $content)
     {

@@ -4,9 +4,10 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
+	"solarium/solarium": "3.3.0",
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "~1.4",
-        "drupal/search_api_solr": "^1.1",
+        "drupal/search_api_solr": "^1.2",
         "drupal/facets": "^1.0"
     },
     "replace": {

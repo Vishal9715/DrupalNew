@@ -764,9 +764,9 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupalNew',
-  'username' => 'vishal9715',
-  'password' => 'vishal9715',
+  'database' => 'marketplace_stage',
+  'username' => 'root',
+  'password' => '123@iitb',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
