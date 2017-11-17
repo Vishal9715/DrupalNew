@@ -10,7 +10,8 @@ regions:
   user_login: 'User Login'
   sidebar: 'Sidebar'
   sidebar2: 'Sidebar2'
-  footer_bottom: 'Footer Bottom'
+  footer_bottom1: 'Footer Bottom1'
+  
   content: 'Main Content'
   arrivals: 'Arrivals'
   solr_search: 'Solr Search'
@@ -19,10 +20,7 @@ regions:
   arrival_heading: 'Arrival Heading'
   images: 'Images'
   main_region: 'Main region'
-  contact_us: 'Contact us'
-  important_links: 'Important Links'
-  more_information: 'More Information'
-  advertisements: 'Advertisements'
+  
   frontimage: 'FrontImage'
   facet1: 'Facet1'
   facet2: 'Facet2'
