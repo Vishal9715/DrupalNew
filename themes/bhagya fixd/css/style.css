@@ -552,12 +552,11 @@ li.nbs-flexisel-item a:hover{
 /*--footer--*/
 .footer{
 	padding:3em 0 2em;
-	background-color: rgb(242,243,244);
+	background-color: white;
 }
 .ftr-grid h4 {
   color: #646464;
   display: block;
-  border-bottom: 1px solid #E5E5E5;
   padding-bottom: 5px;
   font-size: 1.3em;
 }
@@ -579,6 +578,9 @@ li.nbs-flexisel-item a:hover{
 }
 .copywrite {
 	background-color: #ececec;
+        box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.1);
+      border-top: 1px solid #c4c5c7; 
+     margin-top: 10px;
 }
 .copywrite p {
   color: #999;

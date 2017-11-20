@@ -26,6 +26,8 @@ regions:
   facet2: 'Facet2'
   facet3: 'Facet3'
   facet4: 'Facet4'
+  footer_bottom2: 'Footer Bottom2'
+  footer_bottom3: 'Footer Bottom3'
 
 libraries:
   - bhagya/global-styling
